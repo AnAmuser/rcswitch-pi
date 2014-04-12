@@ -1,10 +1,6 @@
 # About
 
-rcswitch-pi is for controlling rc remote controlled power sockets 
-with the raspberry pi. Kudos to the projects [rc-switch](http://code.google.com/p/rc-switch)
-and [wiringpi](https://projects.drogon.net/raspberry-pi/wiringpi).
-I just adapted the rc-switch code to use the wiringpi library instead of
-the library provided by the arduino.
+Just a simple program making it easier to send bytes through wiringPi
 
 
 ## Usage
