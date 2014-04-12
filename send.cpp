@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     int command = atoi(argv[1]);
     char* arguments  = argv[2];
     
-    if (wiringPiSetup () == -1) {return 1};
+    if (wiringPiSetup () == -1) return 1;
     	
     	printf("sending command[%i] arguments[%s]\n", command, arguments);
 	RCSwitch mySwitch = RCSwitch();
