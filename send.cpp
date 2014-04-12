@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
      */
     int PIN = 0;
     int command = atoi(argv[1]);
-    char* arguments  = atoi(argv[2]);
+    char* arguments  = argv[2];
     
     if (wiringPiSetup () == -1) {return 1};
     	
